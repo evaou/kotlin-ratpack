@@ -1,5 +1,7 @@
 package domoya.app
 
-fun main(args: Array<String>) {
-    println("Hello Kotlin!")
+object Main {
+    @JvmStatic fun main(args: Array<String>) {
+        println("Hello Kotlin!")
+    }
 }

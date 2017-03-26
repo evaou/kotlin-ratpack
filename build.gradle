@@ -12,6 +12,8 @@ buildscript {
 apply plugin: 'idea'
 apply plugin: 'kotlin'
 apply plugin: 'application'
+apply plugin: "io.ratpack.ratpack-java"
+
 
 repositories {
     mavenCentral()
@@ -25,4 +27,4 @@ dependencies {
     testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion"
 }
 
-mainClassName = 'domoya.app.MainKt'
+mainClassName = 'domoya.app.Main'
