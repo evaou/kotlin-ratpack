@@ -1,7 +1,8 @@
 package domoya.app
 
-object Main {
-    @JvmStatic fun main(args: Array<String>) {
-        println("Hello Kotlin!")
-    }
+import co.there4.hexagon.web.*
+
+fun main(args: Array<String>) {
+    get("/hello/{name}") { ok("Hello ${request["name"]}!") }
+    run()
 }
