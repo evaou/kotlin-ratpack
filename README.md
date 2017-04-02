@@ -3,7 +3,10 @@
 - [View result](#view-result)
 
 ### Run service
-    $ ./gradlew run
+    $ ./gradlew run 
+<br>
+
+    $ ./gradlew run -Papp=CorsApp
 
 ### View result
 - [http://localhost:5050](http://localhost:5050)
