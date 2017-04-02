@@ -3,7 +3,7 @@
 - [View result](#view-result)
 
 ### Run service
-    $ gradle run
+    $ ./gradlew run
 
 ### View result
 - [http://localhost:5050](http://localhost:5050)
